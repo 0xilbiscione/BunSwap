@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
   const { mutateAsync: swapNativeToken } = useContractWrite(
     dexContract,
-    "swapEthToToken"
+    "swapToETH"
   );
   const { mutateAsync: swapTokenToNative } = useContractWrite(
     dexContract,
