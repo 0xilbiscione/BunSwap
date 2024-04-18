@@ -1,5 +1,4 @@
 import { ConnectWallet } from "@thirdweb-dev/react";
-import { favicon } from "./public";
 
 export default function Navbar() {
     return (
@@ -18,7 +17,7 @@ export default function Navbar() {
                 }}>
                 <h1>
                     <img
-                        src={ favicon }
+                        src="./public/favicon"
                         alt="BunCoin Logo"
                         classname="w-16 h-16 object-containt"
                     />
