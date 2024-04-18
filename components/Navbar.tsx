@@ -15,14 +15,7 @@ export default function Navbar() {
                 marginLeft: "20px",
                 color: "white",
                 }}>
-                <h1>
-                    <img
-                        src="./public/favicon"
-                        alt="BunCoin Logo"
-                        classname="w-16 h-16 object-containt"
-                    />
-                    BunSwap
-                </h1>
+                <h1>BunSwap</h1>
             </div>
             <ConnectWallet/>
         </div>
