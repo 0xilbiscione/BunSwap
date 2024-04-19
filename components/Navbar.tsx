@@ -15,7 +15,7 @@ export default function Navbar() {
                 marginLeft: "20px",
                 color: "white",
                 }}>
-                <h1>BunSwap</h1>
+                <h1>🍔 BunSwap</h1>
             </div>
             <ConnectWallet/>
         </div>
