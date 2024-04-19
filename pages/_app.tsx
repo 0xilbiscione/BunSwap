@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
 // You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
-const activeChain = "Base";
+const activeChain = "base";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
