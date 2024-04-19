@@ -4,6 +4,9 @@ import { NextPage } from "next";
 import { useEffect, useState } from "react";
 import SwapInput from "../components/SwapInput";
 import { BLOCKED_PAGES } from "next/dist/shared/lib/constants";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+<SpeedInsights/>
 
 const Home: NextPage = () => {
   // Contracts for the DEX and the token
